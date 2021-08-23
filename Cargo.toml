@@ -1,0 +1,10 @@
+[package]
+name = "micro_rand"
+version = "0.0.1"
+edition = "2018"
+
+[lib]
+name = "micro_rand"
+path = "lib/lib.rs"
+
+[dependencies]
