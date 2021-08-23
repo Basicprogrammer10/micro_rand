@@ -3,8 +3,14 @@ name = "micro_rand"
 version = "0.0.1"
 edition = "2018"
 
+repository = "https://github.com/Basicprogrammer10/micro_rand"
+documentation = "https://docs.rs/micro_rand"
+description = "🎲 A tiny, no STD crate for generating (pseudo) random numbers."
+keywords = ["random", "pseudo", "number", "generator"]
+categories = ["cryptography", "embedded", "no-std"]
+license = "GPL-3.0"
+readme = "Readme.md"
+
 [lib]
 name = "micro_rand"
 path = "lib/lib.rs"
-
-[dependencies]
